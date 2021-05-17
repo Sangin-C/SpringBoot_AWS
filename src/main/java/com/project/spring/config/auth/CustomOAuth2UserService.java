@@ -5,7 +5,6 @@ import com.project.spring.config.auth.dto.SessionUser;
 import com.project.spring.domain.user.User;
 import com.project.spring.domain.user.UserRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.oauth2.client.userinfo.DefaultOAuth2UserService;
 import org.springframework.security.oauth2.client.userinfo.OAuth2UserRequest;
@@ -16,7 +15,6 @@ import org.springframework.security.oauth2.core.user.OAuth2User;
 import org.springframework.stereotype.Service;
 
 import javax.servlet.http.HttpSession;
-import java.util.Collection;
 import java.util.Collections;
 
 @RequiredArgsConstructor
